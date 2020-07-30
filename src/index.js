@@ -12,6 +12,7 @@ import UserDetails from "./components/UserDetails";
 import Signout from "./components/auth/Signout";
 import Signin from "./components/auth/Signin";
 import "./style.css";
+console.log("App start");
 const store = createStore(
   reducers,
   {

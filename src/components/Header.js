@@ -12,6 +12,12 @@ class Header extends Component {
           <Link to="/dashboard">Dashboard</Link>
         </div>
       );
+    } else {
+      return (
+        <div>
+          <Link to="/signin">Sign In</Link>
+        </div>
+      );
     }
   }
 
@@ -21,6 +27,7 @@ class Header extends Component {
         <h2>
           <Link to="/">User Dashboard</Link>
         </h2>
+        <Link to="/signin">Sign In</Link>
         {this.renderLinks()}
       </div>
     );
