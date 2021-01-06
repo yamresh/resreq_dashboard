@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://yamresh.github.io/resreq_dashboard",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "react": "latest",
     "react-dom": "latest",
     "react-lazyload": "^3.0.0",
